@@ -1,0 +1,344 @@
+{
+    "scripts": [
+        "js/jquery.min.js",
+        "js/jquery-migrate-3.0.1.min.js",
+        "js/popper.min.js",
+        "js/bootstrap.min.js",
+        "js/jquery.easing.1.3.js",
+        "js/jquery.waypoints.min.js",
+        "js/jquery.stellar.min.js",
+        "js/owl.carousel.min.js",
+        "js/jquery.magnific-popup.min.js",
+        "js/aos.js",
+        "js/jquery.animateNumber.min.js",
+        "js/bootstrap-datepicker.js",
+        "js/jquery.timepicker.min.js",
+        "js/scrollax.min.js",
+        "https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false",
+        "js/google-map.js",
+        "js/main.js"
+    ],
+    "head": {
+        "linklist": [
+            {"href": "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700", "rel": "stylesheet"},
+            {"href": "https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700", "rel": "stylesheet"},
+            {"href": "https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff", "rel": "stylesheet"},
+            {"href": "css/open-iconic-bootstrap.min.css", "rel": "stylesheet"},
+            {"href": "css/animate.css", "rel": "stylesheet"},
+            {"href": "css/owl.carousel.min.css", "rel": "stylesheet"},
+            {"href": "css/owl.theme.default.min.css", "rel": "stylesheet"},
+            {"href": "css/magnific-popup.css", "rel": "stylesheet"},
+            {"href": "css/aos.css", "rel": "stylesheet"},
+            {"href": "css/ionicons.min.css", "rel": "stylesheet"},
+            {"href": "css/bootstrap-datepicker.css", "rel": "stylesheet"},
+            {"href": "css/jquery.timepicker.css", "rel": "stylesheet"},
+            {"href": "css/flaticon.css", "rel": "stylesheet"},
+            {"href": "css/icomoon.css", "rel": "stylesheet"},
+            {"href": "css/style.css", "rel": "stylesheet"}
+        ]
+    },
+    "page": {
+        "common": {
+            "base": {
+                "div_navigation": {
+                    "id": "colorlib-page",
+                    "class": ""
+                },
+                "div_content": {
+                    "id": "colorlib-main",
+                    "class": ""
+                },
+                "div_loader": {
+                    "id": "ftco-loader",
+                    "class": "show fullscreen",
+                    "bg_color": "#eeeeee",
+                    "color": "#F96D00"
+                }
+            },
+            "header": {
+                "class": "ftco-section ftco-bread",
+                "div_container": {
+                    "class": "container",
+                    "div_allignment": {
+                        "class": "row no-gutters slider-text justify-content-center align-items-center",
+                        "div_title": {
+                            "class": "col-md-8 ftco-animate fadeInUp ftco-animated",
+                            "breadcrumbs": {
+                                "class": "breadcrumbs",
+                                "bread_item": {
+                                    "class": "mr-2"
+                                }
+                            },
+                            "title": {
+                                "class": "bread"
+                            },
+                            "subtitle": {
+                                "class": "bread"
+                            }
+                        }
+                    }
+                }
+            },
+            "footer": {
+                "class": "ftco-footer ftco-bg-dark ftco-section",
+                "div_footer": {
+                    "class": "ftco-footer ftco-bg-dark ftco-section",
+                    "div_table": {
+                        "class": "container px-md-5",
+                        "div_table_row": {
+                            "class": "row mb-5",
+                            "content": {
+                                "class": "col-md",
+                                "container": {
+                                    "class": "ftco-footer-widget mb-4",
+                                    "header": {
+                                        "class": "ftco-heading-2"
+                                    },
+                                    "list": {
+                                        "class": "list-unstyled categories"
+                                    },
+                                    "div_block": {
+                                        "class": "block-23 mb-3"
+                                    }
+                                },
+                                "images_container": {
+                                    "class": "ftco-footer-widget mb-4 ml-md-4",
+                                    "header": {
+                                        "class": "ftco-heading-2"
+                                    },
+                                    "list": {
+                                        "class": "list-unstyled photo",
+                                        "item": {
+                                            "class": "img"
+                                        }
+                                    }
+                                }
+                            },
+                            "questions": {},
+                            "recentphotos": {}
+                        },
+                        "div_table_empty_row": {
+                            "class": "row"
+                        },
+                        "div_spacer": {
+                            "class": "col-md-12"
+                        }
+                    }
+                },
+                "copyright_text": "All rights reserved | This template is made with <i class='icon-heart' aria-hidden='true'></i> by <a href='https://colorlib.com' target='_blank'>Colorlib</a> & improved by <a href='https://github.com/MartinAirN/Air-Global_version_of_colorlib_Louie' target='_blank'>Air-Global</a><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->"
+            },
+            "navigation": {
+                "toggle_link": {
+                    "class": "js-colorlib-nav-toggle colorlib-nav-toggle"
+                },
+                "aside": {
+                    "id": "colorlib-aside",
+                    "class": "js-fullheight text-center",
+                    "role": "complementary",
+                    "logo": {
+                        "id": "colorlib-logo"
+                    },
+                    "nav_list": {
+                        "id": "colorlib-main-menu",
+                        "role": "navigation",
+                        "nav_item": {
+                            "active_class": "colorlib-active",
+                            "default_class": ""
+                        }
+                    },
+                    "footer": {
+                        "class": "colorlib-footer"
+                    }
+                }
+            },
+            "addresslink": {
+                "span_icon": {
+                    "class": "icon icon-map-marker"
+                },
+                "span_text": {
+                    "class": "text"
+                }
+            },
+            "emaillink": {
+                "span_icon": {
+                    "class": "icon icon-envelope"
+                },
+                "span_text": {
+                    "class": "text"
+                }
+            },
+            "phonelink": {
+                "span_icon": {
+                    "class": "icon icon-phone"
+                },
+                "span_text": {
+                    "class": "text"
+                }
+            }
+        },
+        "index": {
+            "section_top": {
+                "class": "ftco-section-no-padding bg-light",
+                "div_wrapping": {
+                    "class": "hero-wrap",
+                    "div_extra": {
+                        "class": "overlay"
+                    },
+                    "div_content": {
+                        "class": "d-flex align-items-center js-fullheight",
+                        "div_images":{
+                            "class": "author-image text img d-flex",
+                            "section": {
+                                "class": "home-slider js-fullheight owl-carousel",
+                                "div_item": {
+                                    "class": "slider-item js-fullheight"
+                                }
+                            }
+                        },
+                        "div_author": {
+                            "class": "author-info text p-3 p-md-5",
+                            "div_textbox": {
+                                "class": "desc"
+                            }
+                        }
+                    }
+                }
+            },
+            "section_instagram": {
+                "class": "ftco-section instagram",
+                "div_container": {
+                    "class": "container",
+                    "div_header": {
+                        "class": "row justify-content-center mb-2 pb-3",
+                        "div_text": {
+                            "class": "col-md-7 heading-section heading-section-2 text-center ftco-animate fadeInUp ftco-animated"
+                        }
+                    },
+                    "div_images": {
+                        "class": "row no-gutters",
+                        "div_image": {
+                            "class": "col-sm-12 col-md ftco-animate fadeInUp ftco-animated",
+                            "link": {
+                                "class": "insta-img image-popup",
+                                "div_overlay": {
+                                    "class": "icon d-flex justify-content-center",
+                                    "span_overlay_content": {
+                                        "class": "icon-instagram align-self-center"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "error": {
+            "section": {
+                "class": "ftco-section",
+                "div_container": {
+                    "class": "container",
+                    "div_row": {
+                        "class": "row"
+                    }
+                }
+            }
+        },
+        "services": {
+            "section": {
+                "class": "ftco-section",
+                "div_table": {
+                    "class": "container",
+                    "div_cell": {
+                        "class": "row",
+                        "item": {
+                            "class": "col-md-4 d-flex align-self-stretch ftco-animate fadeInUp ftco-animated",
+                            "item_block": {
+                                "class": "media block-6 services py-4 d-block",
+                                "div_icon_container": {
+                                    "class": "d-flex justify-content-start",
+                                    "div_icon": {
+                                        "class": "icon d-flex align-items-center justify-content-center"
+                                    }
+                                },
+                                "div_text_container": {
+                                    "class": "media-body p-2 mt-2",
+                                    "header": {
+                                        "class": "heading mb-3"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "album": {
+            "section": {
+                "class": "ftco-section-3",
+                "imgtable": {
+                    "class": "photograhy",
+                    "row": {
+                        "class": "row",
+                        "item": {
+                            "class": "col-md-4 ftco-animate fadeInUp ftco-animated",
+                            "link": {
+                                "class":"photography-entry img image-popup d-flex justify-content-start align-items-end",
+                                "overlay": {
+                                    "class": "overlay"
+                                },
+                                "text_block": {
+                                    "class": "text ml-4 mb-4",
+                                    "header": {
+                                        "class": ""
+                                    },
+                                    "text": {
+                                        "class": "tag"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "text": {
+        "header": {
+            "subheader": {
+                "class": "subheading"
+            },
+            "level1": {
+                "class": "h1"
+            },
+            "level3": {
+                "class": "mt-3"
+            },
+            "level4": {
+                "class": "mb-4"
+            }
+        },
+        "big": {
+            "class": "big-letter"
+        },
+        "written": {
+            "class": "signature"
+        }
+    },
+    "socials": {
+        "list": {
+            "class": "ftco-social mt-3",
+            "item": {
+                "class": "ftco-animate"
+            }
+        },
+        "facebook": {
+            "class": "icon-facebook"
+        },
+        "instagram": {
+            "class": "icon-instagram"
+        },
+        "twitter": {
+            "class": "icon-twitter"
+        }
+    }
+}
